@@ -4,11 +4,15 @@ import subprocess
 import json
 
 task_desc = sys.argv[1]
+print(task_desc)
 subprocess.run(["task", "add", task_desc])
+cmd = ["task", "add", task_desc]
+print(cmd)
+subprocess.run(cmd)
 
 print(json.dumps({
     "items": [{
-        "title": f"✅ Добавлена задача: {task_desc}",
+        "title": f"✅ Task added: {task_desc}",
         "valid": False
     }]
 }))

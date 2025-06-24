@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>4659EC0A-79E8-4AF9-A5EA-D87321482072</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A8AEA987-BE57-4B3A-A8D6-8FA4B9281013</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6DC2B660-FD42-4F34-88E4-42747F393EB9</key>
 		<array>
 			<dict>
@@ -45,6 +58,27 @@
 	<string>Task Warrior</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>еф</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4659EC0A-79E8-4AF9-A5EA-D87321482072</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -92,10 +126,66 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>behaviour</key>
+				<integer>0</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>0</integer>
+				<key>footertext</key>
+				<string></string>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>scriptinput</key>
+				<integer>0</integer>
+				<key>spellchecking</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>58371991-A8F0-4828-A12C-DD9D3100942D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>task_complete.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>38304EFF-DDC7-4602-9D93-13B9A1C6AE39</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -138,29 +228,6 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>task_complete.py</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>38304EFF-DDC7-4602-9D93-13B9A1C6AE39</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>A lightweight Alfred 5 workflow for managing your Taskwarrior tasks directly from the command palette.</string>
@@ -173,12 +240,26 @@
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
-		<key>6DC2B660-FD42-4F34-88E4-42747F393EB9</key>
+		<key>4659EC0A-79E8-4AF9-A5EA-D87321482072</key>
 		<dict>
 			<key>xpos</key>
 			<real>165</real>
 			<key>ypos</key>
-			<real>295</real>
+			<real>35</real>
+		</dict>
+		<key>58371991-A8F0-4828-A12C-DD9D3100942D</key>
+		<dict>
+			<key>xpos</key>
+			<real>690</real>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>6DC2B660-FD42-4F34-88E4-42747F393EB9</key>
+		<dict>
+			<key>xpos</key>
+			<real>160</real>
+			<key>ypos</key>
+			<real>310</real>
 		</dict>
 		<key>A171EE5D-0723-40BF-8D97-D8E3D5E619D7</key>
 		<dict>
