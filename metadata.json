@@ -4,7 +4,7 @@
     "readme" : "A lightweight Alfred 5 workflow for managing your Taskwarrior tasks directly from the command palette.",
     "createdby" : "Dmitry Zudochkin",
     "downloadurl" : "",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "bundleid" : "ru.zudochkin.task-warrior",
     "description" : "Task management with Warrior",
     "name" : "Task Warrior",
